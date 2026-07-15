@@ -1,0 +1,14 @@
+# Prevent Vercel from trying to build Python serverless functions
+# and prevent backend code from being served statically to the public
+requirements.txt
+*.py
+run_standalone.py
+services/
+configs/
+models/
+outputs/
+.env
+.env.example
+.gitignore
+README.md
+LICENSE
